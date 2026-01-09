@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riyanka | Graphics</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+    <div class="loader" id="loader">LOADING</div>
+
+    <div class="fog top"></div>
+    <div class="fog bottom"></div>
+
+    <nav class="nav">
+      <div class="logo">Riyanka's Art Portfolio</div>
+      <button class="about-btn" id="about-btn">About</button>
+    </nav>
+
+    <div class="glass-modal" id="about-modal">
+      <div class="glass-content">
+        <h2>Riyanka Bhowmik</h2>
+        <p>
+          I am a creative technologist blending Simple or complex concepts with high-end Graphic Design. 
+          <br><br>
+          This archive represents my journey in visual storytelling, branding, and motion graphics.
+        </p>
+        <div class="contact-links">
+          <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=riyankabhowmik955@gmail.com&su=Hello%20Riyanka&body=I%20saw%20your%20portfolio..." target="_blank" class="icon-link" aria-label="Email">
+            <i data-lucide="mail"></i>
+          </a>
+          <a href="https://www.instagram.com/inart_me?igsh=djljY2hjaTNlazI1" target="_blank" class="icon-link" aria-label="Instagram">
+            <i data-lucide="instagram"></i>
+          </a>
+        </div>
+        <button class="close-modal" id="close-modal">Close</button>
+      </div>
+    </div>
+
+    <div class="viewport">
+      <div class="scroll-container">
+        <div class="gallery" id="grid">
+          </div>
+      </div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+      <img src="" id="lightbox-img">
+    </div>
+
+    <script type="module" src="/main.js"></script>
+    
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+      // Wait for DOM, then render icons
+      window.onload = function() {
+        if (window.lucide) {
+          lucide.createIcons();
+        }
+      };
+    </script>
+  </body>
+</html>
