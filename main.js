@@ -178,3 +178,4 @@ aboutModal.addEventListener('click', (e) => {
         lenis.start();
     }
 });
+console.log("Deployed version 2.0");
