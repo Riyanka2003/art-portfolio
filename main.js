@@ -1,5 +1,5 @@
 import Lenis from '@studio-freight/lenis';
-
+const REPO_NAME = '/art-portfolio';
 // --- 1. ASSETS ---
 const ASSETS = [
   '/assets/Dzire Official Merch Design(1).webp', '/assets/Dzire Official Merch Design (2).webp', '/assets/Coconut Campaign slide4.webp',
